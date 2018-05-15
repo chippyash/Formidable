@@ -7,7 +7,7 @@ use Gregwar\Formidable\Factory;
  *
  * @author Grégoire Passault <g.passault@gmail.com>
  */
-class FactoryTests extends \PHPUnit_Framework_TestCase
+class FactoryTests extends \PHPUnit\Framework\TestCase
 {
     /**
      * Testing creating forms using the factory

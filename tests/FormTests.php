@@ -8,7 +8,7 @@ use Gregwar\Formidable\PostIndicator;
  *
  * @author Grégoire Passault <g.passault@gmail.com>
  */
-class FormTests extends \PHPUnit_Framework_TestCase
+class FormTests extends \PHPUnit\Framework\TestCase
 {
     /**
      * Testing that toString() give the same thing as getHtml()

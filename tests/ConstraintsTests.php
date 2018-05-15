@@ -20,7 +20,7 @@ class FileField_NoSave extends \Gregwar\Formidable\Fields\FileField
  *
  * @author Grégoire Passault <g.passault@gmail.com>
  */
-class ConstraintsTests extends \PHPUnit_Framework_TestCase
+class ConstraintsTests extends \PHPUnit\Framework\TestCase
 {
     /**
      * Testing rendering a required field
@@ -261,6 +261,8 @@ class ConstraintsTests extends \PHPUnit_Framework_TestCase
     public function testSelectOut()
     {
         $form = $this->getForm('select.html');
+
+        $this->assertContains(">Paris<", "$form");
 
         $this->assertAccept($form, array(
             'city' => 'la'

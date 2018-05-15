@@ -8,7 +8,7 @@ use Gregwar\Formidable\ParserException;
  *
  * @author Grégoire Passault <g.passault@gmail.com>
  */
-class ParserTests extends \PHPUnit_Framework_TestCase
+class ParserTests extends \PHPUnit\Framework\TestCase
 {
     /**
      * Testing the returns of a basic parse
